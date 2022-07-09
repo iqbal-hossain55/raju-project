@@ -1,11 +1,14 @@
 import React from 'react';
-import JobSeekersBanner from '../JobSeekersBanner/JobSeekersBanner';
-import './JobSeekers.css';
+import Footer from '../../Shared/Footer/Footer';
+import ScanApp from '../../Shared/ScanApp/ScanApp';
+import JobSeekersAll from '../JobSeekersAll/JobSeekersAll'; 
 
 const JobSeekers = () => {
     return (
         <div>
-            <JobSeekersBanner/>
+            <JobSeekersAll/>
+            <ScanApp/>
+            <Footer/>
         </div>
     );
 };
