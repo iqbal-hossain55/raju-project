@@ -5,16 +5,16 @@ const JobAvailable = () => {
   return (
     <div>
       {/* job-available-section-1  */}
-      <section class="job-available-section">
-        <div class="jobs-available">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 col-mg-12">
-                <h3 class="title-sm">
+      <section className="job-available-section">
+        <div className="jobs-available">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-mg-12">
+                <h3 className="title-sm">
                   Jobs available in 70+ categories including
                 </h3>
-                <div class="jobs-list">
-                  <ul class="available-list">
+                <div className="jobs-list">
+                  <ul className="available-list">
                     <li>
                       <span>Human Resources</span>
                     </li>
@@ -78,14 +78,14 @@ const JobAvailable = () => {
       </section>
 
       {/* job-available-section-2  */}
-      <section class="job-available-section">
-        <div class="jobs-available">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3 class="title-sm">Jobs available in 48 cities</h3>
-                <div class="jobs-list">
-                  <ul class="available-list">
+      <section className="job-available-section">
+        <div className="jobs-available">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <h3 className="title-sm">Jobs available in 48 cities</h3>
+                <div className="jobs-list">
+                  <ul className="available-list">
                     <li>
                       <span>Delhi</span>
                     </li>

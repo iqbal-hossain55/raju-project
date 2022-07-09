@@ -5,20 +5,20 @@ import hire from '../../../assets/images/hire-direct-hirect-new.ea598ac.png'
 
 const HireChat = () => {
     return (
-        <section class="hire-chat-section">
-        <div class="hire-chat">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="hire-now">
+        <section className="hire-chat-section">
+        <div className="hire-chat">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-5">
+                <div className="hire-now">
                   <h2>Chat Directly With <br />Candidates &amp; Hire Now</h2>
-                  <a href="/connect" class="btn default-btn button-sm"
+                  <a href="/connect" className="btn default-btn button-sm"
                     >Get Connected</a
                   >
                 </div>
               </div>
-              <div class="col-md-7">
-                <div class="hire-now-img">
+              <div className="col-md-7">
+                <div className="hire-now-img">
                   <img
                     src={chat}
                     alt=""
@@ -28,25 +28,25 @@ const HireChat = () => {
             </div>
           </div>
         </div>
-        <div class="hire-chat">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-7">
-                <div class="hire-now-img">
+        <div className="hire-chat">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-7">
+                <div className="hire-now-img">
                   <img
                     src={hire}
                     alt=""
                   />
                 </div>
               </div>
-              <div class="col-md-5">
-                <div class="hire-now">
+              <div className="col-md-5">
+                <div className="hire-now">
                   <h2>Hire Direct with <br />Hirect</h2>
                   <p>
                     AI Algorithm: The app connects 150K+ verified Startups with
                     3M+ verified and relevant Jobseekers!
                   </p>
-                  <a href="/connect" class="btn default-btn button-sm"
+                  <a href="/connect" className="btn default-btn button-sm"
                     >Instant Hiring</a
                   >
                 </div>

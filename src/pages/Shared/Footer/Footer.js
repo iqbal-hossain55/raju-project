@@ -8,13 +8,13 @@ import americaFlag from "../../../assets/icons/america-flag.png";
 const Footer = () => {
     
   return (
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="footer-box">
-              <div class="footer-logo">
-                <a href="/homepage" class="">
+    <section className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5">
+            <div className="footer-box">
+              <div className="footer-logo">
+                <a href="/homepage" className="">
                   <img src={footerLogo} alt="" />
                 </a>
                 <p>
@@ -23,16 +23,16 @@ const Footer = () => {
                   verified 150K+ Startups!
                 </p>
               </div>
-              <div class="footer-whatsapp">
+              <div className="footer-whatsapp">
                 <img src={whatsappIcon} alt="" />
                 <a href="https://api.whatsapp.com/send?phone=+918446164920">
                   +918446164920
                 </a>
               </div>
-              <ul class="footer-social-link">
+              <ul className="footer-social-link">
                 <li>
                   <a href="https://twitter.com/HirectIndia" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                     href="https://in.linkedin.com/company/hirectapp"
                     target="_blank"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
@@ -48,7 +48,7 @@ const Footer = () => {
                     href="https://www.facebook.com/hirectindia/"
                     target="_blank"
                   >
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                 </li>
                 <li>
@@ -56,7 +56,7 @@ const Footer = () => {
                     href="https://www.youtube.com/channel/UC98TU-jrNVOJCWC-FhnaPWQ"
                     target="_blank"
                   >
-                    <i class="fa-brands fa-youtube"></i>
+                    <i className="fa-brands fa-youtube"></i>
                   </a>
                 </li>
                 <li>
@@ -64,39 +64,39 @@ const Footer = () => {
                     href="https://www.instagram.com/hirect_india/"
                     target="_blank"
                   >
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="footer-link">
+          <div className="col-md-7">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="footer-link">
                   <h4>Hirect</h4>
                   <ul>
                     <li>
                       <a
                         href="/"
                         aria-current="page"
-                        class="nuxt-link-exact-active nuxt-link-active"
+                        className="nuxt-link-exact-active nuxt-link-active"
                       >
                         Home
                       </a>
                     </li>
                     <li>
-                      <a href="/aboutus" class="">
+                      <a href="/aboutus" className="">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a href="/features-in" class="">
+                      <a href="/features-in" className="">
                         Features
                       </a>
                     </li>
                     <li>
-                      <a href="/connect" class="">
+                      <a href="/connect" className="">
                         Recruiters
                       </a>
                     </li>
@@ -104,25 +104,25 @@ const Footer = () => {
                       <a href="https://www.hirect.in/blog/">Blog</a>
                     </li>
                     <li>
-                      <a href="/job-seeker" class="">
+                      <a href="/job-seeker" className="">
                         Job Seekers
                       </a>
                     </li>
                     <li>
-                      <a href="/startup-hiring" class="">
+                      <a href="/startup-hiring" className="">
                         For Startup Hiring
                       </a>
                     </li>
                     <li>
-                      <a href="/contact-us" class="">
+                      <a href="/contact-us" className="">
                         Contact us
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="footer-link">
+              <div className="col-md-4">
+                <div className="footer-link">
                   <h4>Support</h4>
                   <ul>
                     <li>
@@ -138,27 +138,27 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="footer-link">
+              <div className="col-md-4">
+                <div className="footer-link">
                   <h4>Legal</h4>
                   <ul>
                     <li>
-                      <a href="/privacypolicy" class="">
+                      <a href="/privacypolicy" className="">
                         Privacy Policy
                       </a>
                     </li>
                     <li>
-                      <a href="/termsconditions" class="">
+                      <a href="/termsconditions" className="">
                         Terms &amp; Conditions
                       </a>
                     </li>
                     <li>
-                      <a href="/product-pricing" class="">
+                      <a href="/product-pricing" className="">
                         Product &amp; Pricing
                       </a>
                     </li>
                     <li>
-                      <a href="/refund-cancellation-policy" class="">
+                      <a href="/refund-cancellation-policy" className="">
                         Refund Policy
                       </a>
                     </li>
@@ -168,20 +168,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="copy-right-footer">
-          <div class="row">
-            <div class="col-md-6 copy-right-text">
+        <div className="copy-right-footer">
+          <div className="row">
+            <div className="col-md-6 copy-right-text">
               <h3>© Elephantjob Private Limited. All Rights Reserved.</h3>
             </div>
-            <div class="col-md-6">
-              <div class="change-flage">
-                <div class="dropdown">
-                  <a class="dropbtn">
+            <div className="col-md-6">
+              <div className="change-flage">
+                <div className="dropdown">
+                  <a className="dropbtn">
                     <img src={indiaFlag} alt="" />
                     <h6>Change Region</h6>
                   </a>
-                  <div class="dropdown-content">
-                    <a href="https://hirect.us?changeregion=1" class="dropbtn">
+                  <div className="dropdown-content">
+                    <a href="https://hirect.us?changeregion=1" className="dropbtn">
                       <img src={americaFlag} alt="" />
                       <h6>United States</h6>
                     </a>
@@ -193,24 +193,24 @@ const Footer = () => {
         </div>
       </div>
       <div
-        class="el-dialog__wrapper schedule-dialog"
+        className="el-dialog__wrapper schedule-dialog"
         style={{ display: "none" }}
       >
         <div
           role="dialog"
           aria-modal="true"
           aria-label="dialog"
-          class="el-dialog"
+          className="el-dialog"
           style={{ marginTop: "15vh" }}
         >
-          <div class="el-dialog__header">
-            <span class="el-dialog__title"></span>
+          <div className="el-dialog__header">
+            <span className="el-dialog__title"></span>
             <button
               type="button"
               aria-label="Close"
-              class="el-dialog__headerbtn"
+              className="el-dialog__headerbtn"
             >
-              <i class="el-dialog__close el-icon el-icon-close"></i>
+              <i className="el-dialog__close el-icon el-icon-close"></i>
             </button>
           </div>
         </div>

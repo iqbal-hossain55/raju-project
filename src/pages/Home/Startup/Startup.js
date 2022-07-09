@@ -14,17 +14,17 @@ import download8 from '../../../assets/icons/download (8).png';
  
 const Startup = () => {
     return (
-        <section class="startup-section">
-        <div class="startups-logo">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3 class="title-sm">
+        <section className="startup-section">
+        <div className="startups-logo">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <h3 className="title-sm">
                   More than 150K+ startups trust Hirect for their recruitment
                   needs.
                 </h3>
-                <div class="jobs-list">
-                  <ul class="startups-logo-list">
+                <div className="jobs-list">
+                  <ul className="startups-logo-list">
                     <li>
                       <img
                         src={lenskart}
