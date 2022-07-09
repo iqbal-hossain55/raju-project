@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; 
+import Footer from '../../Shared/Footer/Footer';
 import ScanApp from '../../Shared/ScanApp/ScanApp';
 import Banner from '../Banner/Banner';
 import HireChat from '../HireChat/HireChat';
@@ -15,6 +16,7 @@ const Home = () => {
             <Startup/>
             <HomeTestimonial/>
             <ScanApp/>
+            <Footer/>
         </div>
     );
 };
