@@ -18,7 +18,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
@@ -56,7 +56,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
@@ -91,7 +91,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
@@ -127,7 +127,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
@@ -163,7 +163,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
@@ -198,7 +198,7 @@ const HomeTestimonial = () => {
               tabindex="-1"
               data-index="0"
               aria-hidden="false"
-              class="slick-slide slick-active slick-current"
+              class="slick-slide home-slider slick-active slick-current"
               style={{ outline: "none", width: "372px" }}
             >
               <div>
